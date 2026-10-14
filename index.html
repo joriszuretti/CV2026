@@ -57,6 +57,10 @@ ul.pts li::before{content:"";position:absolute;left:0;top:.8em;width:6px;height:
 .sub{margin:.15rem 0 0;font-size:.9rem;text-align:justify;hyphens:none;text-wrap:pretty}
 .award h3{font-weight:600}
 .award h3 b{font-weight:800}
+.award h3 a{text-decoration:none;border-bottom:1px solid rgba(255,255,255,.6);transition:color .2s,border-color .2s}
+.award h3 a:hover{color:var(--pink);border-color:var(--pink)}
+.watch{display:inline-block;margin-top:.6rem;font-size:.85rem;font-weight:800;color:var(--pink);text-decoration:none}
+.watch:hover{text-decoration:underline}
 
 /* Langues & logiciels */
 .row2{display:grid;grid-template-columns:1.15fr 1fr;gap:3.5rem;margin-top:3.5rem;padding-top:3rem;border-top:1px solid rgba(255,255,255,.2)}
@@ -127,7 +131,7 @@ footer{padding:2rem 1.5rem 3rem 2.5rem;text-align:center;background:var(--ink)}
         <span class="pill">2025 – Aujourd'hui</span>
         <h3>Ingénieur / Formateur en Robotique</h3>
         <p class="org">ROBOTIC ACADEMY | PÔLE FORMATION — <i>Dijon</i></p>
-        <ul class="pts"><li>Formateur certifié <b>Fanuc</b></li><li>Conception & animation de projets techniques en Robotique, Vision et Automatisme</li><li>Ingénierie en robotique industrielle</li></ul>
+        <ul class="pts"><li>Formateur certifié <b>Fanuc</b></li><li>Conception & animation de projets techniques</li><li>Ingénierie en robotique industrielle</li></ul>
       </article>
       <article data-r>
         <span class="pill">2025</span>
@@ -139,25 +143,25 @@ footer{padding:2rem 1.5rem 3rem 2.5rem;text-align:center;background:var(--ink)}
         <span class="pill">2024</span>
         <h3>[Stage] Ingénieur Robotique</h3>
         <p class="org">ATLAS ROBOTS — <i>Madrid (ES)</i></p>
-        <ul class="pts"><li>Intégration de cellules robotisées – Kuka &amp; Siemens</li><li>Système de palletisation et d'assemblage</li></ul>
+        <ul class="pts"><li>Intégration de cellules robotisées – Kuka &amp; Siemens</li><li>Palletisation et assemblage</li></ul>
       </article>
       <article data-r>
         <span class="pill">2022 – 2024</span>
         <h3>[Apprenti] Ingénieur Robotique</h3>
         <p class="org">BEE AUTOMATION — <i>Strasbourg</i></p>
-        <ul class="pts"><li>Intégration en Robotique mobile – Sherpa Mobile Robotics</li><li>Développement d'application web &amp; d'Interface Homme Machine</li></ul>
+        <ul class="pts"><li>Intégration en Robotique mobile – Sherpa Mobile Robotics</li><li>Développement d'application web &amp; Interface Homme Machine</li></ul>
       </article>
       <article data-r>
         <span class="pill">2021 – 2022</span>
         <h3>[Apprenti] Tech. roboticien</h3>
         <p class="org">AXILUM ROBOTICS — <i>Strasbourg</i></p>
-        <ul class="pts"><li>Support technique – systèmes robotisés médicaux</li><li>Développement logiciel – Python (OpenCV)</li><li>Conception d'un démonstrateur robotisé avec outils de vision par ordinateur</li><li>Programmation robot – Universal Robots, Dobot</li></ul>
+        <ul class="pts"><li>Support technique – systèmes robotisés médicaux</li><li>Développement logiciel – Python (OpenCV)</li><li>Conception d'un démonstrateur robotisé avec outils de vision</li><li>Programmation robot – Universal Robots, Dobot</li></ul>
       </article>
       <article data-r>
         <span class="pill">2019 – 2021</span>
         <h3>[Apprenti] Tech. automaticien</h3>
         <p class="org">PÔLE FORMATION ALSACE — <i>Strasbourg</i></p>
-        <ul class="pts"><li>Retrofit de systèmes automatisés – Siemens</li><li>Conception d'outils pédagogiques</li><li>Découpe jet d'eau, fraisage CN & soudure TIG</li></ul>
+        <ul class="pts"><li>Retrofit de systèmes automatisés – Siemens</li><li>Découpe jet d'eau, fraisage CN & soudure TIG</li></ul>
       </article>
     </div>
   </section>
@@ -197,9 +201,10 @@ footer{padding:2rem 1.5rem 3rem 2.5rem;text-align:center;background:var(--ink)}
       <h2 class="vt" id="t-prix">Prix</h2>
       <div class="frame"><span class="rail"></span>
         <article class="award" data-r>
-          <h3>Olympiades <i>FANUC France</i> <b>2024</b></h3>
+          <h3><a href="olympiades.html">Olympiades <i>FANUC France</i> <b>2024</b></a></h3>
           <p class="org">MÉDAILLE DE BRONZE</p>
           <p class="sub"><i>Concours de robotique industrielle BAC+5</i></p>
+          <a class="watch" href="olympiades.html">▶ Voir la vidéo</a>
         </article>
       </div>
     </section>
@@ -209,7 +214,7 @@ footer{padding:2rem 1.5rem 3rem 2.5rem;text-align:center;background:var(--ink)}
 <div class="row2">
   <section aria-labelledby="t-lang">
     <h2 class="h" id="t-lang">Langues</h2>
-    <div class="lang" data-r><span>Espagnol – Bilingue</span><div class="bar"><i style="--w:95%;background:var(--green)"></i></div></div>
+    <div class="lang" data-r><span>Espagnol</span><div class="bar"><i style="--w:90%;background:var(--green)"></i></div></div>
     <div class="lang" data-r><span>Anglais – TOEIC B2</span><div class="bar"><i style="--w:60%;background:var(--pink)"></i></div></div>
     <h2 class="h" style="margin-top:2rem">Languages</h2>
     <ul class="code" data-r><li>Python</li><li>C / C++</li><li>HTML / CSS / JavaScript</li></ul>
