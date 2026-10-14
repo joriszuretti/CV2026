@@ -106,16 +106,10 @@ footer{padding:2rem 1.5rem 3rem 2.5rem;text-align:center;background:var(--ink)}
     <h2 class="vt" id="t-video">Vidéo</h2>
     <div class="frame"><span class="rail"></span>
       <div class="player" data-r>
-        <video controls preload="metadata" playsinline poster="CV2026/video/IMG-AVP2024.png">
-          <source src="CV2026/video/olympiades.mp4" type="video/mp4" onerror="this.closest('.player').classList.add('missing')">
+        <video controls preload="metadata" playsinline poster="video/IMG-AVP2024.png">
+          <source src="video/olympiades.mp4" type="video/mp4" onerror="this.closest('.player').classList.add('missing')">
           Ton navigateur ne peut pas lire cette vidéo.
         </video>
-        <div class="ph"><span>▶</span><p>Vidéo à venir</p></div>
-        <!-- Variante YouTube (vidéo non répertoriée) : supprime <video> et <div class="ph"> ci-dessus,
-             puis colle ceci en remplaçant VIDEO_ID :
-        <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Olympiades FANUC France 2024"
-          style="width:100%;height:100%;border:0" allow="fullscreen; picture-in-picture" loading="lazy"></iframe>
-        -->
       </div>
       <div class="objectifs">
       <p>Objectif du <b>Lot 1 :</b></p>
